@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sunyata:block/odd_stone_block"
+  }
+}
