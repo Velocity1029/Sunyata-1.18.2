@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> ODD_STONE = ITEMS.register("odd_stone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SUNYATA_TAB)));
 
+    public static final RegistryObject<Item> WILTING_BOUQUET = ITEMS.register("wilting_bouquet",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SUNYATA_TAB)));
+
 
 
     public static void register(IEventBus eventBus) {
