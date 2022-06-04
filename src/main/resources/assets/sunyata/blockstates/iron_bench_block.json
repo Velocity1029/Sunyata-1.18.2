@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model":  "sunyata:block/iron_bench" },
-    "facing=east": { "model":  "sunyata:block/iron_bench", "y": 90},
-    "facing=south": { "model":  "sunyata:block/iron_bench", "y": 180 },
-    "facing=west": { "model":  "sunyata:block/iron_bench", "y": 270 }
+    "facing=north": { "model":  "sunyata:block/iron_bench_block" },
+    "facing=east": { "model":  "sunyata:block/iron_bench_block", "y": 90},
+    "facing=south": { "model":  "sunyata:block/iron_bench_block", "y": 180 },
+    "facing=west": { "model":  "sunyata:block/iron_bench_block", "y": 270 }
   }
 }
