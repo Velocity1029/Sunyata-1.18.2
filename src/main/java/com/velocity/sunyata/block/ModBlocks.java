@@ -1,12 +1,14 @@
 package com.velocity.sunyata.block;
 
 import com.velocity.sunyata.Sunyata;
+import com.velocity.sunyata.block.custom.IronBenchBlock;
 import com.velocity.sunyata.item.ModCreativeModeTab;
 import com.velocity.sunyata.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> ODD_STONE_BLOCK = registerBlock("odd_stone_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.SUNYATA_TAB);
+
+
+    public static final RegistryObject<Block> IRON_BENCH_BLOCK = registerBlock("iron_bench_block",
+            () -> new IronBenchBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS).noOcclusion()),
+            ModCreativeModeTab.SUNYATA_TAB);
 
 
 
